@@ -7,18 +7,27 @@ quarkus:
     signservice-config:
       group-id: se.swedenconnect.signservice
       artifact-id: signservice-config
-#    signservice-engine:
-#      group-id: se.swedenconnect.signservice
-#      artifact-id: signservice-engine
-#    signservice-authn-saml:
-#      group-id: se.swedenconnect.signservice
-#      artifact-id: signservice-authn-saml
-#    signservice-audit-base:
-#      group-id: se.swedenconnect.signservice
-#      artifact-id: signservice-audit-base
-#    credentials-support:
-#      group-id: se.swedenconnect.security
-#      artifact-id: credentials-support
+    signservice-engine:
+      group-id: se.swedenconnect.signservice
+      artifact-id: signservice-engine
+    signservice-authn-saml:
+      group-id: se.swedenconnect.signservice
+      artifact-id: signservice-authn-saml
+    signservice-audit-base:
+      group-id: se.swedenconnect.signservice
+      artifact-id: signservice-audit-base
+    signservice-audit-actuator:
+      group-id: se.swedenconnect.signservice
+      artifact-id: signservice-audit-actuator
+    credentials-support:
+      group-id: se.swedenconnect.security
+      artifact-id: credentials-support
+    signservice-commons:
+      group-id: se.idsec.signservice.commons
+      artifact-id: signservice-commons
+    signservice-keycert-base:
+      group-id: se.swedenconnect.signservice
+      artifact-id: signservice-keycert-base
 
 signservice:
   domain: localhost
